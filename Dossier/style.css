@@ -1,0 +1,151 @@
+/*border*/
+.blue :hover{
+    border-color: #0065FC;
+    border-top: solid;
+    padding-top: 5px;
+}
+.backblue{
+    background-color: #0065FC;
+}
+.lightblue{
+    border-color: #DEEBFF;
+}
+.backgrey{
+    border-color: #F2F2F2;
+    
+
+}
+.colorgris{
+    color: #F2F2F2;
+    
+}
+
+/*Body*/
+body{
+    font-family: 'Raleway', sans-serif ;
+    max-width: 1200px;
+    margin: 0 auto;
+/*Fin partie body*/ 
+}
+/*Container*/
+#Container {
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+}
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 100px;
+    padding: 10px;
+}
+#LogoReservia {
+    width: 150px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    padding-left: 30px;
+}
+#activites{
+    color: black;
+}
+/*Fin header*/
+/*Section1 zone de réservation */
+/*Zone de recherche*/
+.reservation h1{
+    margin-left: 10px;
+}
+.reservation p{
+    margin-left: 10px;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bordurecherche{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #F2F2F2;
+}
+.paddingrecherche{
+    padding-left: 20px;   
+}
+.boutonrecherche{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+.bordurezero{
+    border: none;
+}
+.mapicon{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+    
+}
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+/*.reservation p {
+    background-color: blue;
+    border-radius: 30px;
+    outline: none;*/
+    
+/*Fin zone de recherche*/
+.filtres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    padding-left: 0;
+    border-radius: 30px;
+    background: #DEEBFF;
+    width: 30px;
+    height: 30px;
+}
+.picons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 2px #F2F2F2;
+    padding: 5px;
+    padding-left: 0;
+    height: 20px;
+}
+.picons span {
+    padding: 7px;
+}
+.filtresrecherche {
+    margin: 10px;
+}
+/*Fin de de la zone de réservation*/
+.image {
+    width: 100px;
+    height: 100px;
+}
