@@ -53,12 +53,15 @@
     border-color: #DEEBFF;
 }
 .backgrey{
-    background-color:  #F2F2F2;
+    background-color:  #f2f2f2;
     
 }
 .colorgris{
     color: #F2F2F2;
     
+}
+.colorblue {
+    color: #0065FC;
 }
 
 /*Body*/
@@ -72,6 +75,8 @@ body{
 /*Container*/
 #Container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
@@ -198,12 +203,7 @@ nav li {
     margin-right: 20px;
     border-radius: 10px;
 }
-.tblocpopulaire {
-    flex: 1;
-    height: 650px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
+
 .blocs {
     padding-left: 20px;
     padding-right: 20px;
@@ -224,6 +224,10 @@ nav li {
     background-color: white;
     padding: 1%;
     border-radius: 20px;
+}
+.modelecarte :hover{
+    cursor: pointer;
+    transform: scale(1.03);
 }
 .imgmodele1
 {
@@ -280,4 +284,58 @@ nav li {
     height: 120px;
     border-radius: 15px 15px 0 0;
     
+}
+/*Bloc 2 cartes les plus populaire*/
+.tblocpopulaire {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.blocpopulaire {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blocpopulaire1 {
+    margin-bottom: 20px;
+}
+.modelecarte2 {
+    height: auto;
+    background-color: white;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+.modelecarte2 :hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.imgmodele7 {
+    background-image: url(/Dossier/images/hebergements/4_small/Le_soleil_du_matin.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.descriptcartes2 {
+    width: 60%;
+    padding-left: 5%;
+
+}
+.imgmodele8 {
+    background-image: url(/Dossier/images/hebergements/4_small/Au_coeur_de_leau.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgmodele9 {
+    background-image: url(/Dossier/images/hebergements/4_small/Tout_bleu_et_blanc.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
 }
