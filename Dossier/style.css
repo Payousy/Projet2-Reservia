@@ -105,7 +105,7 @@ nav li {
     list-style: none;
     padding-left: 30px;
 }
-#activites{
+.coloractivites{
     color: black;
 }
 /*Fin header*/
@@ -338,4 +338,89 @@ nav li {
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
+}
+
+/*Section activités*/
+.activMarseille {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cartactivites {
+    width: 100%;
+    height: 600px;
+}
+/*Ajustement des cartes*/
+.cartactivite1 {
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+.hauteurtitre {
+    height: 70px;
+}
+.titreactivites {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
+    width: 95%;
+}
+.imgactivite1 {
+        background-image: url(/Dossier/images/activites/3_medium/Vieux_port.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 530px;
+        border-radius: 15px 15px 0 0 ;
+}
+.blocactivitefinp {
+    width: 23%;
+    height: 600px;
+}
+.cartactivitefinp{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+.imgactivite2 {
+    background-image: url(/Dossier/images/activites/4_small/Fort_de_pomegues.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0 ;
+}
+.imgactivite3 {
+    background-image: url(/Dossier/images/activites/4_small/Ile_du_frioul.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
+}
+.imgactivite4 {
+    background-image: url(/Dossier/images/activites/3_medium/Parcnational_des_calanques.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.imgactivite5 {
+background-image: url(/Dossier/images/activites/4_small/Notredame_de_la_garde.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 200px;
+border-radius: 15px 15px 0 0 ;
+}
+
+.imgactivite6 {
+background-image: url(/Dossier/images/activites/4_small/Parc_longchamp.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 200px;
+border-radius: 15px 15px 0 0 ;
 }
