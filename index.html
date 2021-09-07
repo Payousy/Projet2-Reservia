@@ -16,12 +16,17 @@
         <!--header : logo du site et menu navigation-->
         <header>
                 <img id="LogoReservia" src="Dossier/images/logo/Reservia@3x.png" alt="logo du site réservia" >
-                <nav class="border purple">
-                    <ul>
-                        <li class="border blue"><a href="#hebergements" class="decorationone">Hébergements</a></li>
-                        <li class="border blue"><a class="coloractivites decorationone" href="#activites">Activités</a></li>
-                        <li class="border blue"><a href="#" class="decorationone">S'inscrire</a></li>
-                    </ul>
+                <nav class=" border purple">
+                    <div class="zisenav">
+                        <ul>
+                            <div class="sizeHA mobilenav flexcenter">
+                                <li class="border blue"><a href="#hebergements" class="decorationone">Hébergements</a></li>
+                                <li class="border blue"><a class="coloractivites decorationone" href="#activites">Activités</a></li>
+                            </div>
+                            
+                            <li class="border blue"><a href="#" class="decorationone">S'inscrire</a></li>
+                        </ul>
+                    </div>
                 </nav>
         </header>
         <main>
@@ -32,7 +37,10 @@
                         <div class="flexcenter bordurecherche">
                             <div class="backgrey flexcenter mapicon"><i  class =" fas fa-map-marker-alt " > </i></div>
                             <div><input class="recherche flexcenter bordurezero paddingrecherche" type="saerch" value="Marseille, France"></div>
-                            <div class="backblue flexcenter boutonrecherche">Recherche</div>
+                            <div class="backblue flexcenter boutonrecherche">
+                               <span class="mobilenone">Recherche</span>
+                               <span class="desktopnone"><i class="fas fa-search"></i></span> 
+                            </div>
                         </div>
                         <div class="filtres">
                             <h3>Filtres</h3>
@@ -44,10 +52,10 @@
                     <p class="info">Plus de 500 logements sont disponobles dans cette ville.</p>
                     <!--Fin de la section de reservation-->
             </section>
-            <section id="hebergements" class="flexaround">
-                <div class="flexcolumnaround tblocmarseille backgrey blocs">
+            <section id="hebergements" class="flexrevers flexaround">
+                <div class=" flexcolumnaround tblocmarseille backgrey blocs">
                     <h3>Hébergements à Marseille</h3>
-                    <div class="bloc1 flexbetween">
+                    <div class="flexclomncentreres sizeblocMarseille bloc1 flexbetween">
                         <div class="modelecarte flexcolumncentre">
                             <div class="imgmodele1"></div>
                             <div>
@@ -91,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bloc2 flexbetween">
+                    <div class="flexclomncentreres bloc2 flexbetween">
                         <div class="modelecarte flexcolumncentre">
                             <div class="imgmodele4"></div>
                             <div class="descriptcartes">
@@ -151,7 +159,7 @@
                             <h3>Hôtel Le soleil du matin</h3>
                             <p>Nuit à partir de 128€</p>
                             <div>
-                                <i class="colorblue fas fa-star"></i>
+                                    <i class="colorblue fas fa-star"></i>
                                     <i class="colorblue fas fa-star"></i>
                                     <i class="colorblue fas fa-star"></i>
                                     <i class="colorblue fas fa-star"></i>
@@ -194,7 +202,7 @@
             <section id="activites" class="activMarseille">
                 <h2>Activités à Marseille</h2>
 
-                <div class="flexbetween cartactivites">
+                <div class="activitesglobal flexclomncentreres cartactivites">
                     <div class="cartactivite1 flexcolumncentre">
                         <div class="imgactivite1"></div>
                         <div class="hauteurtitre titreactivites"><h3>Vieux port</h3></div>
@@ -233,8 +241,8 @@
                 
             </section>
             <!--Footer : comporte les différentes informations complémentaires de Réservia-->
-            <footer>
-                <div class="taillefooter flexbetween backgrey">
+           <footer>
+                <div class="flexclomncentreres taillefooter flexbetween backgrey">
                     <div class="margeApropos tailleblocs">
                         <h3>A propos</h3>
 
