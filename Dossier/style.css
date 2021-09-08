@@ -236,6 +236,9 @@ nav li {
     background-color: white;
     padding: 1%;
     border-radius: 20px;
+    /**ajout box-shadow
+    box-shadow: 5px 5px 5px 1px #f2f2f2f2;**/
+    
 }
 .modelecarte :hover{
     cursor: pointer;
@@ -433,7 +436,7 @@ height: 200px;
 border-radius: 15px 15px 0 0 ;
 }
 
-.imgactivite6 {
+.imgactivite6 {     
 background-image: url(/Dossier/images/activites/4_small/Parc_longchamp.jpg);
 background-size: cover;
 background-position: center;
@@ -612,6 +615,39 @@ border-radius: 15px 15px 0 0 ;
     }
     .mobilenone {
         display: none;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+    .margefiltre {
+        padding-left: 5px;
+    }
+    .margeicons {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mobileconimique {
+        margin-right: 5px;
+    }
+    .mobilefamilial {
+        margin-right: 0;
+    }
+    .info {
+        padding-left: 5%;
+    }
+    .blocpopulaire {
+        border-radius: 0;
+    }
+    .blochebergement {
+        background-color: #ffffff ;
+    }
+    .mobiletpa {
+        padding-left: 5%;
+    }
+    .padactivites {
+        padding: 5%;
+        width: 90%;
     }
    /*560px mobile version*/
 }
