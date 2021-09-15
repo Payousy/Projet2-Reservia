@@ -328,7 +328,7 @@ nav li {
 }
 .imgmodele1
 {
-    background-image: url(./images/hebergements/4_small/Auberge_la-canabiere.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Auberge_la-canabiere.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -337,7 +337,7 @@ nav li {
 
 }
 .imgmodele2 {
-    background-image: url(./images/hebergements/4_small/Hotel_du_port.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Hotel_du_port.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -346,7 +346,7 @@ nav li {
     
 }
 .imgmodele3 {
-    background-image: url(./images/hebergements/4_small/Hotel_les_mouhettes.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Hotel_les_mouhettes.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -355,7 +355,7 @@ nav li {
     
 }
 .imgmodele4 {
-    background-image: url(./images/hebergements/4_small/Hotel_de_la_mer.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Hotel_de_la_mer.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -365,7 +365,7 @@ nav li {
 }
 .imgmodele5
 {
-    background-image: url(./images/hebergements/4_small/Auberge_le_panier.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Auberge_le_panier.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -374,7 +374,7 @@ nav li {
     
 }
 .imgmodele6 {
-    background-image: url(./images/hebergements/4_small/Hotel_chez_amina.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Hotel_chez_amina.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -408,7 +408,7 @@ nav li {
 }
 
 .imgmodele7 {
-    background-image: url(./images/hebergements/4_small/Le_soleil_du_matin.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Le_soleil_du_matin.jpg);
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -421,7 +421,7 @@ nav li {
 
 }
 .imgmodele8 {
-    background-image: url(./images/hebergements/4_small/Au_coeur_de_leau.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Au_coeur_de_leau.jpg);
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -429,7 +429,7 @@ nav li {
     border-radius: 15px 0 0 15px;
 }
 .imgmodele9 {
-    background-image: url(./images/hebergements/4_small/Tout_bleu_et_blanc.jpg);
+    background-image: url(Dossierimages/hebergements/4_small/Tout_bleu_et_blanc.jpg);
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -468,7 +468,7 @@ nav li {
     width: 95%;
 }
 .imgactivite1 {
-        background-image: url(./images/activites/3_medium/Vieux_port.jpg);
+        background-image: url(Dossier/images/activites/3_medium/Vieux_port.jpg);
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -485,7 +485,7 @@ nav li {
     box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 .imgactivite2 {
-    background-image: url(./images/activites/4_small/Fort_de_pomegues.jpg);
+    background-image: url(Dossier/images/activites/4_small/Fort_de_pomegues.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -493,7 +493,7 @@ nav li {
     border-radius: 15px 15px 0 0 ;
 }
 .imgactivite3 {
-    background-image: url(./images/activites/4_small/Ile_du_frioul.jpg);
+    background-image: url(Dossier/images/activites/4_small/Ile_du_frioul.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -501,7 +501,7 @@ nav li {
     border-radius: 15px 15px 0 0 ;
 }
 .imgactivite4 {
-    background-image: url(./images/activites/3_medium/Parcnational_des_calanques.jpg);
+    background-image: url(Dossier/images/activites/3_medium/Parcnational_des_calanques.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -510,7 +510,7 @@ nav li {
 }
 
 .imgactivite5 {
-background-image: url(./images/activites/4_small/Notredame_de_la_garde.jpg);
+background-image: url(Dossier/images/activites/4_small/Notredame_de_la_garde.jpg);
 background-size: cover;
 background-position: center;
 width: 100%;
@@ -519,7 +519,7 @@ border-radius: 15px 15px 0 0 ;
 }
 
 .imgactivite6 {     
-background-image: url(./images/activites/4_small/Parc_longchamp.jpg);
+background-image: url(Dossier/images/activites/4_small/Parc_longchamp.jpg);
 background-size: cover;
 background-position: center;
 width: 100%;
