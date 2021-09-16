@@ -83,7 +83,7 @@ body{
     padding: 50px;
 }
 /*header*/
-header {
+/**header {
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -108,6 +108,68 @@ nav li {
 #activites{
     color: black;
 }
+**/
+
+.navbar {
+    width: auto;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "logo  hebergement activites inscrire";
+    grid-gap: 20px;
+    margin: auto;
+}
+nav img {
+    width: 100px;
+    margin: auto;
+    padding-top: 15px;
+    text-decoration: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color:#0065fc ;
+}
+.hebergement a:hover {
+    border-top: solid #0065fc;
+    padding-top: 15px;
+}
+
+.activites a:hover {
+    border-top: solid #0065fc;
+    padding-top: 15px;
+}
+
+.inscrire a:hover {
+    border-top: solid #0065fc;
+    padding-top: 15px;
+}
+
+.logo {
+     grid-area: logo;
+    
+ }
+
+ .hebergement {
+     grid-area: hebergement;
+     margin-top: 20px;
+     
+ }
+
+ .activites { 
+     grid-area: activites;
+     margin-top: 20px;
+ }
+ .activites a {
+     color: black;
+ }
+ .inscrire {
+     grid-area: inscrire;
+     margin-top: 20px;
+ }
+
 /*Fin header*/
 /*Section1 zone de réservation */
 /*Zone de recherche*/
@@ -231,7 +293,7 @@ nav li {
 }
 .imgmodele1
 {
-    background-image: url(/Dossier/images/hebergements/4_small/Auberge_la-canabiere.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Auberge_la-canabiere.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -240,7 +302,7 @@ nav li {
 
 }
 .imgmodele2 {
-    background-image: url(/Dossier/images/hebergements/4_small/Hotel_du_port.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Hotel_du_port.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -249,7 +311,7 @@ nav li {
     
 }
 .imgmodele3 {
-    background-image: url(/Dossier/images/hebergements/4_small/Hotel_les_mouhettes.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Hotel_les_mouhettes.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -258,7 +320,7 @@ nav li {
     
 }
 .imgmodele4 {
-    background-image: url(/Dossier/images/hebergements/4_small/Hotel_de_la_mer.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Hotel_de_la_mer.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -268,7 +330,7 @@ nav li {
 }
 .imgmodele5
 {
-    background-image: url(/Dossier/images/hebergements/4_small/Auberge_le_panier.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Auberge_le_panier.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -277,7 +339,7 @@ nav li {
     
 }
 .imgmodele6 {
-    background-image: url(/Dossier/images/hebergements/4_small/Hotel_chez_amina.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Hotel_chez_amina.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -311,7 +373,7 @@ nav li {
 }
 
 .imgmodele7 {
-    background-image: url(/Dossier/images/hebergements/4_small/Le_soleil_du_matin.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Le_soleil_du_matin.jpg);
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -324,7 +386,7 @@ nav li {
 
 }
 .imgmodele8 {
-    background-image: url(/Dossier/images/hebergements/4_small/Au_coeur_de_leau.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Au_coeur_de_leau.jpg);
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -332,7 +394,7 @@ nav li {
     border-radius: 15px 0 0 15px;
 }
 .imgmodele9 {
-    background-image: url(/Dossier/images/hebergements/4_small/Tout_bleu_et_blanc.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Tout_bleu_et_blanc.jpg);
     background-size: cover;
     background-position: center;
     width: 35%;
