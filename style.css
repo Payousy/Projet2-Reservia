@@ -158,23 +158,6 @@ a {
      margin-top: 20px;
  }
 
-
- 
-
- 
-/**.tnav {
-    height: 100px;
-}
-.tlnav {
-    width: 100%;
-}
-.tHA {
-    margin-left: 60%;
-}
-.tHAI {
-    width: 140px;
-    height: 99px;
-}**/
 nav {
     display: flex;
     align-items: center;
@@ -267,8 +250,8 @@ nav li {
     justify-content: center;
     align-items: center;
     color: blue;
-    padding-left: 0;
-    border-radius: 30px;
+    padding: auto;
+    border-radius: 40px;
     background: #DEEBFF;
     width: 30px;
     height: 30px;
@@ -290,6 +273,23 @@ nav li {
     margin: 10px;
 }
 
+.info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.infoicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    padding-left: 0;
+    border-radius: 30px;
+    background: #DEEBFF;
+    width: 30px;
+    height: 30px;
+}
 /*Description des cartes d'hébergements*/
 .tblocmarseille {
     flex: 2;
@@ -429,7 +429,7 @@ nav li {
     border-radius: 15px 0 0 15px;
 }
 .imgmodele9 {
-    background-image: url(Dossierimages/hebergements/4_small/Tout_bleu_et_blanc.jpg);
+    background-image: url(Dossier/images/hebergements/4_small/Tout_bleu_et_blanc.jpg);
     background-size: cover;
     background-position: center;
     width: 35%;
