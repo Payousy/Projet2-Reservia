@@ -1,5 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500; 1 600 ; 1 700 & affichage = échanger');
 /*Reglage general*/
 .flexcenter {
     display: flex;
@@ -149,6 +147,7 @@ a {
  .activites { 
      grid-area: activites;
      margin-top: 20px;
+     margin-left: 20px;
  }
  .activites a {
      color: black;
@@ -238,33 +237,38 @@ nav li {
     outline: none;*/
     
 /*Fin zone de recherche*/
+/**Filtre**/
 .filtres {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    width: 60%;
+
 }
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.margefiltres {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.margetitre {
+    margin-right: 20px;
+}
+.iconfiltres {
+    margin-left: -2px;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
     color: blue;
-    padding: auto;
-    border-radius: 40px;
-    background: #DEEBFF;
-    width: 30px;
-    height: 30px;
+    background-color: #DEEBFF;
 }
-.picons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Texticons {
     border-radius: 30px;
     border: solid 2px #F2F2F2;
-    padding: 5px;
-    padding-left: 0;
-    height: 20px;
+    height: 40px;
+    margin-right: 20px;
+}
+.filtretext {
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0 25px 25px 0;
 }
 .picons span {
     padding: 7px;
@@ -275,20 +279,18 @@ nav li {
 
 .info {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 
 .infoicon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: blue;
     padding-left: 0;
+    border: solid 2px #f2f2f2;
     border-radius: 30px;
     background: #DEEBFF;
     width: 30px;
     height: 30px;
+    margin-left: 5px;
 }
 /*Description des cartes d'hébergements*/
 .tblocmarseille {
@@ -593,7 +595,7 @@ border-radius: 15px 15px 0 0 ;
 
 @media screen and (max-width: 960px) {
     
-    #hebergements {
+    .hebergements {
         flex-direction: column-reverse;
     }
     .tblocpopulaire {
@@ -614,6 +616,20 @@ border-radius: 15px 15px 0 0 ;
 @media screen and (max-width: 770px) {
     nav {
         width: 30%;
+    }
+    .filtremobile {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .filtres {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .margefiltres {
+        margin-top: 40px;
+        margin-bottom: 30px;
+       
     }
 }
 
@@ -845,6 +861,11 @@ border-radius: 15px 15px 0 0 ;
         border-top: none;
        border-bottom: solid #0065fc;
        padding-bottom: 15px;
+    }
+
+    .activites { 
+        grid-area: activites;
+        margin-left: 0;
     }
  }
   
