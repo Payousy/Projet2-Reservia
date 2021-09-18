@@ -570,7 +570,7 @@ border-radius: 15px 15px 0 0 ;
            /*1960*/
     }
 }
-@media screen and (max-width: 1205) {
+@media screen and (max-width: 1205px) {
     .inscription{
         margin-left: 0;
     }
