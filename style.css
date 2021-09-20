@@ -276,6 +276,11 @@ nav li {
 .filtresrecherche {
     margin: 10px;
 }
+.filtres :hover {
+    cursor: pointer;
+    color: #727c8f;
+    font-weight: bold;
+}
 
 .info {
     display: flex;
@@ -316,7 +321,7 @@ nav li {
 }
 .modelecarte {
     width: 30%;
-    height: auto;
+   
     background-color: white;
     padding: 1%;
     border-radius: 20px;
@@ -328,6 +333,7 @@ nav li {
     cursor: pointer;
     transform: scale(1.03);
 }
+/**Intégration des images**/
 .imgmodele1
 {
     background-image: url(Dossier/images/hebergements/4_small/Auberge_la-canabiere.jpg);
@@ -453,11 +459,18 @@ nav li {
     width: 100%;
     height: 600px;
 }
+
+.activitesanim :hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
 /*Ajustement des cartes*/
 .cartactivite1 {
     width: 23%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #F2F2F2;
+  
 }
 .hauteurtitre {
     height: 70px;
@@ -544,7 +557,7 @@ border-radius: 15px 15px 0 0 ;
     margin-right: 15%;
 }
 /*Version responsive*/
-@media screen and (max-width: 1289px) {
+/**@media screen and (max-width: 1289px) {
     nav {
         width: 50%;
         margin-left: 54%;
@@ -557,12 +570,15 @@ border-radius: 15px 15px 0 0 ;
         margin-left: 0;
     }
 }
+
+**/
 @media screen and (max-width: 1230px) {
-    nav {
+   /** nav {
         width: 50%;
         margin-left: 50%;
         margin-top: 15px;
     }
+    **/
     .modelecarte {
         max-height: 200px;
             width: 30%;
@@ -570,17 +586,24 @@ border-radius: 15px 15px 0 0 ;
            /*1960*/
     }
 }
-@media screen and (max-width: 1205) {
-    .inscription{
-        margin-left: 0;
-    }
-}
-@media screen and (max-width: 1148px) {
 
-    .inscription {
-        width: 30%;
+
+@media screen and (max-width: 1024px) {
+
+    .margeH3carte {
+        margin-top: 2px;
+        margin-bottom: auto;
     }
 }
+
+@media screen and (max-width: 1109px) {
+
+    .margeH3carte {
+        margin-top: 2px;
+        margin-bottom: auto;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     header {
         width: 90%;
@@ -631,6 +654,15 @@ border-radius: 15px 15px 0 0 ;
         margin-bottom: 30px;
        
     }
+    .margeH3carte {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .margeH3carte1 {
+        margin-top: 5px;
+        
+    }
+
 }
 
 @media only screen and (max-width: 660px) {
@@ -642,7 +674,13 @@ border-radius: 15px 15px 0 0 ;
       justify-content: space-between;
       margin-bottom: 25px;
     }**/
-    header {
+
+    .margeH3carte1 {
+        margin-top: 15px;
+    }
+
+    
+    /**header {
         display: flex;
         width: 100%;
         position: relative;
@@ -673,10 +711,10 @@ border-radius: 15px 15px 0 0 ;
         bottom: 150px;
         left: 300px;
     }
-
+**/
     .flexrevers {
         display: flex;
-    flex-direction: column-reverse;
+        flex-direction: column-reverse;
   
     }
     .flexclomncentreres {
@@ -685,7 +723,7 @@ border-radius: 15px 15px 0 0 ;
     .cartactivite1 {
         width: 100%;
         height: auto;
-        margin-bottom: 30px;
+        
         
     }
     .imgactivite1 {
@@ -773,11 +811,7 @@ border-radius: 15px 15px 0 0 ;
         width: 50px;
         border-radius: 15px;
     }
-    .bordurecherche :hover {
-        background: rgba(255, 255, 255, 0.808);
-        color: blue;
-    }
-   
+    
     .recherche{
         width: 200px;
         
@@ -821,6 +855,11 @@ border-radius: 15px 15px 0 0 ;
         padding: 5%;
         width: 90%;
     }
+
+    .tcarte1 {
+        width: 90%;
+    }
+
    /*560px mobile version*/
   }
 
@@ -830,12 +869,12 @@ border-radius: 15px 15px 0 0 ;
       }
      .navbar {
         display: grid;
-        grid-template-columns: 3fr 1fr ;
+        grid-template-columns: 1fr 1fr ;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: 
         "logo   inscrire "
         "hebergement activites";
-        grid-gap: 30px;
+        grid-gap: 0;
         font-weight: bold;
         background-color: white;
 
@@ -845,16 +884,22 @@ border-radius: 15px 15px 0 0 ;
          width: 100%;
      }
 
-    .hebergement a:hover {
+    .hebergement :hover, .activites :hover {
          border-top: none;
         border-bottom: solid #0065fc;
         padding-bottom: 15px;
+        padding: 15px;
      }
      
-     .activites a:hover {
-        border-top: none;
-       border-bottom: solid #0065fc;
+     .hebergement , .activites  {
+       
+       border-bottom: solid #f2f2f2;
        padding-bottom: 15px;
+       text-align: center;
+    
+    }
+    .hebergement a:hover, .activites a:hover {
+        border-top: none;
     }
 
     .inscrire a:hover {
@@ -867,9 +912,14 @@ border-radius: 15px 15px 0 0 ;
         grid-area: activites;
         margin-left: 0;
     }
+
+    .inscrire {
+            display: flex;
+            justify-content: flex-end;
+    }
  }
   
-@media screen and (max-width: 560px) { 
+/**@media screen and (max-width: 560px) { 
     
     header {
         display: flex;
@@ -900,7 +950,7 @@ border-radius: 15px 15px 0 0 ;
     .inscription {
         width: auto;
     }
-    
+    **/
 
 
 
