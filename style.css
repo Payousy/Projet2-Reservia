@@ -460,7 +460,7 @@ nav li {
     height: 600px;
 }
 
-.activitesanim :hover{
+.animactivites :hover{
     cursor: pointer;
     transform: scale(1.03);
 }
